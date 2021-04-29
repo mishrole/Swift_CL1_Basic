@@ -16,7 +16,8 @@
 		293A067F263A5FE500F6F33B /* CursoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A067E263A5FE500F6F33B /* CursoModel.swift */; };
 		293A0682263A89C700F6F33B /* ViewControllerSalida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0681263A89C700F6F33B /* ViewControllerSalida.swift */; };
 		293A0685263A963200F6F33B /* ClienteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0684263A963200F6F33B /* ClienteModel.swift */; };
-		293A0688263ABA5000F6F33B /* Delivery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A0687263ABA5000F6F33B /* Delivery.storyboard */; };
+		293A068F263B2FC100F6F33B /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A068E263B2FC100F6F33B /* MenuModel.swift */; };
+		293A0692263B2FFA00F6F33B /* ViewControllerMenuOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0691263B2FFA00F6F33B /* ViewControllerMenuOffice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		293A067E263A5FE500F6F33B /* CursoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoModel.swift; sourceTree = "<group>"; };
 		293A0681263A89C700F6F33B /* ViewControllerSalida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSalida.swift; sourceTree = "<group>"; };
 		293A0684263A963200F6F33B /* ClienteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteModel.swift; sourceTree = "<group>"; };
-		293A0687263ABA5000F6F33B /* Delivery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delivery.storyboard; sourceTree = "<group>"; };
+		293A068E263B2FC100F6F33B /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		293A0691263B2FFA00F6F33B /* ViewControllerMenuOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenuOffice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,8 @@
 				293A067E263A5FE500F6F33B /* CursoModel.swift */,
 				293A0681263A89C700F6F33B /* ViewControllerSalida.swift */,
 				293A0684263A963200F6F33B /* ClienteModel.swift */,
-				293A0687263ABA5000F6F33B /* Delivery.storyboard */,
+				293A068E263B2FC100F6F33B /* MenuModel.swift */,
+				293A0691263B2FFA00F6F33B /* ViewControllerMenuOffice.swift */,
 			);
 			path = CL1_T6NN_RODRIGUEZ_LEON_M;
 			sourceTree = "<group>";
@@ -138,7 +141,6 @@
 			files = (
 				293A0672263A4EBF00F6F33B /* LaunchScreen.storyboard in Resources */,
 				293A066F263A4EBF00F6F33B /* Assets.xcassets in Resources */,
-				293A0688263ABA5000F6F33B /* Delivery.storyboard in Resources */,
 				293A066D263A4EBD00F6F33B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				293A0682263A89C700F6F33B /* ViewControllerSalida.swift in Sources */,
+				293A0692263B2FFA00F6F33B /* ViewControllerMenuOffice.swift in Sources */,
 				293A067F263A5FE500F6F33B /* CursoModel.swift in Sources */,
 				293A0685263A963200F6F33B /* ClienteModel.swift in Sources */,
+				293A068F263B2FC100F6F33B /* MenuModel.swift in Sources */,
 				293A066A263A4EBD00F6F33B /* ViewController.swift in Sources */,
 				293A0666263A4EBD00F6F33B /* AppDelegate.swift in Sources */,
 				293A0668263A4EBD00F6F33B /* SceneDelegate.swift in Sources */,
