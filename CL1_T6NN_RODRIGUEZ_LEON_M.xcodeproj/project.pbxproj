@@ -13,6 +13,10 @@
 		293A066D263A4EBD00F6F33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A066B263A4EBD00F6F33B /* Main.storyboard */; };
 		293A066F263A4EBF00F6F33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293A066E263A4EBF00F6F33B /* Assets.xcassets */; };
 		293A0672263A4EBF00F6F33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A0670263A4EBF00F6F33B /* LaunchScreen.storyboard */; };
+		293A067F263A5FE500F6F33B /* CursoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A067E263A5FE500F6F33B /* CursoModel.swift */; };
+		293A0682263A89C700F6F33B /* ViewControllerSalida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0681263A89C700F6F33B /* ViewControllerSalida.swift */; };
+		293A0685263A963200F6F33B /* ClienteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A0684263A963200F6F33B /* ClienteModel.swift */; };
+		293A0688263ABA5000F6F33B /* Delivery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293A0687263ABA5000F6F33B /* Delivery.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		293A066E263A4EBF00F6F33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293A0671263A4EBF00F6F33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293A0673263A4EBF00F6F33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293A067E263A5FE500F6F33B /* CursoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoModel.swift; sourceTree = "<group>"; };
+		293A0681263A89C700F6F33B /* ViewControllerSalida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSalida.swift; sourceTree = "<group>"; };
+		293A0684263A963200F6F33B /* ClienteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteModel.swift; sourceTree = "<group>"; };
+		293A0687263ABA5000F6F33B /* Delivery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Delivery.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				293A066E263A4EBF00F6F33B /* Assets.xcassets */,
 				293A0670263A4EBF00F6F33B /* LaunchScreen.storyboard */,
 				293A0673263A4EBF00F6F33B /* Info.plist */,
+				293A067E263A5FE500F6F33B /* CursoModel.swift */,
+				293A0681263A89C700F6F33B /* ViewControllerSalida.swift */,
+				293A0684263A963200F6F33B /* ClienteModel.swift */,
+				293A0687263ABA5000F6F33B /* Delivery.storyboard */,
 			);
 			path = CL1_T6NN_RODRIGUEZ_LEON_M;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			files = (
 				293A0672263A4EBF00F6F33B /* LaunchScreen.storyboard in Resources */,
 				293A066F263A4EBF00F6F33B /* Assets.xcassets in Resources */,
+				293A0688263ABA5000F6F33B /* Delivery.storyboard in Resources */,
 				293A066D263A4EBD00F6F33B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293A0682263A89C700F6F33B /* ViewControllerSalida.swift in Sources */,
+				293A067F263A5FE500F6F33B /* CursoModel.swift in Sources */,
+				293A0685263A963200F6F33B /* ClienteModel.swift in Sources */,
 				293A066A263A4EBD00F6F33B /* ViewController.swift in Sources */,
 				293A0666263A4EBD00F6F33B /* AppDelegate.swift in Sources */,
 				293A0668263A4EBD00F6F33B /* SceneDelegate.swift in Sources */,
