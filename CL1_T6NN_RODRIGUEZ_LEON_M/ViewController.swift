@@ -35,9 +35,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func mostrarAlerta(mensaje: String) {
         let alert = UIAlertController(title: "¡Oops!", message: mensaje, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Entendido", style: .default, handler: { action in
-            // print("tapped")
         }))
-        
         present(alert, animated: true)
     }
     

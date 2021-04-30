@@ -35,9 +35,7 @@ class ViewControllerMenuOffice: UIViewController, UIPickerViewDataSource, UIPick
     func mostrarAlerta(mensaje: String) {
         let alert = UIAlertController(title: "¡Oops!", message: mensaje, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Entendido", style: .default, handler: { action in
-            // print("tapped")
         }))
-        
         present(alert, animated: true)
     }
     
@@ -54,7 +52,6 @@ class ViewControllerMenuOffice: UIViewController, UIPickerViewDataSource, UIPick
     }
     
     func calcularTotal(precioMenu: Double, cantidadMenu: Int) -> Double {
-        
         let costoDelivery = 7
         let subtotalMenu = calcularSubtotal(precio: precioMenu, cantidad: cantidadMenu)
         let descuento = calcularDescuento(subtotal: subtotalMenu)
@@ -136,18 +133,5 @@ class ViewControllerMenuOffice: UIViewController, UIPickerViewDataSource, UIPick
         tfDescuento.text = ""
         tfTotalPagar.text = ""
     }
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
